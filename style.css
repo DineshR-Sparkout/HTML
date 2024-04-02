@@ -1,0 +1,39 @@
+h2{
+    margin:20px;
+}
+
+/*margin gives space outside the border*/
+
+a{
+    color:rosybrown;
+    text-decoration: none;
+}
+
+/* text decoration:none changes the underlined link into normal */
+
+th, td{
+    border: 5px thistle dashed;
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: teal;
+    color:white;
+    border-radius: 50px;
+    text-align: center;
+
+    /* border style dashed changed the border with dashes */
+
+    /* border radius change the box layout to circle */
+
+    /* border collapse used for change table border in single line */
+}
+th{
+    margin: 20px;
+}
+
+table{
+    margin: 20px;
+    border-spacing: 20px;
+
+    /* border spacing puts the size between the table cells */
+
+}

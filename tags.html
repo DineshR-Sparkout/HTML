@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tags</title>
+
+    <link rel="stylesheet" href="style.css";>
+
+    <!--Links the external css file -->
+
+    <link rel="icon" href="HTML/images/computer.jpg">
+
+    <!--link to add icons on the top of the browser-->
+
+    <style>
+        h2{
+            padding: 20px;
+        }
+    </style>
+
+    <!--set padding using internal css(style tag)-->
+
+</head>
+<body>
+
+    <h2><a href="#chapter">HTML</a></h2>
+
+    <h1 style="border:5px solid red">Border style</h1>
+
+    <p style="background-color:rgb(0, 128, 255);color:#ff0000;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, deleniti.</p>
+
+    <!--set the background color using rgb// color using hex-->
+
+    <p style="background-color:hsl(0, 100%, 50%); color:rgba(0, 166, 255,1);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, aperiam!</p>
+
+    <!--set background color using hsl// color using rgba-->
+    
+    <h2 style="background-color:hsla(233, 100%, 50%, 0.9);">Set background-color using hsla</h2>
+
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+
+    <!--target="_blank" opens the document in another tab-->
+
+    <a href="mailto:dineshsrp5678@gmail.com">Contact me</a>
+
+    <!--anchor tag adds the mail id as a link-->
+
+    <a href="https://www.sparkouttech.com" title="sparkout tech solutions">Sparkout tech</a><br>
+
+    <!--title attribute shows the title when mouse over it-->
+
+    <a href="index.html"><img src="HTML/images/html1.jpeg"></a>
+
+    <!--img tag inside anchor tag used image as a link-->
+
+    <img src="HTML/images/gifhtml.gif" alt="html" style="float: right;">
+
+    <!--adds the gif// float is used to put the image in any direction-->
+
+    <h2 id="chapter" style="text-align: center;">HTML</h2>
+
+    <p style="background-image:url(HTML-basics/th.jpeg); background-attachment: fixed; background-size: 100% 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sunt dicta cum illum tenetur qui temporibus, nesciunt earum ea repellendus, adipisci quos, doloribus iure. Iure non omnis, repellendus temporibus numquam, qui corporis minus ab aliquam itaque eum, quas laborum facere id aut earum saepe officia nam quam! Rerum ea error provident eaque nobis alias voluptas exercitationem, suscipit cumque incidunt maiores aliquam facere dicta debitis deleniti, eum consectetur pariatur! Nemo voluptatibus fugit in rerum at ipsa odio dolor minima doloribus dicta optio, culpa minus dolorum maxime eveniet illo necessitatibus obcaecati, aut dolorem, perferendis placeat tenetur. Natus laudantium saepe, adipisci dicta ea rerum! Expedita, quae impedit in est doloremque facilis cumque adipisci perspiciatis repudiandae aliquid velit non obcaecati assumenda incidunt dignissimos voluptatibus ipsa iure distinctio et modi hic! Animi ratione magnam expedita laudantium, voluptatibus qui consequatur ipsam, aspernatur nesciunt commodi veniam dolorum a adipisci corporis quo? Nam cupiditate debitis optio labore fuga, dolorum earum quia dolore, exercitationem reiciendis impedit animi aliquid minima rerum, sunt molestias delectus sequi corporis hic veniam? Perferendis, dicta molestiae ipsam illum et recusandae error magnam adipisci ipsa minima, earum omnis quaerat. Ex culpa aliquid cupiditate eum molestias libero dicta veritatis iure quasi ipsum quo eligendi nostrum laboriosam nisi possimus aspernatur labore at, atque inventore et impedit dolore fugiat, error quisquam. Deserunt enim optio fugit quas dolores libero recusandae beatae obcaecati fugiat aut ratione accusamus cumque distinctio dicta commodi quos itaque consequatur dolorem, provident facilis! Quasi accusamus, repellendus inventore deserunt corporis expedita nulla atque ipsa, distinctio dolorem nesciunt ab illo placeat debitis alias deleniti facere magni quis! Eveniet dolor illum deleniti. Omnis perferendis ipsam accusantium dignissimos magni, corrupti debitis repudiandae doloribus alias quia in aliquid placeat minus expedita veniam veritatis earum quisquam. Iure non porro incidunt ullam dolorum ut sed officiis possimus, ab voluptate, quae, et blanditiis voluptatem cumque!</p>
+
+    <!--link bookmark is created with id attribute and its value // when you clik the heading in the top it will come to the content of the heading in the same page-->
+
+    <!--puts background image for the tag// background attachement fixed the background cover// background size 100% stretch the image into element size-->
+
+    <img src="HTML/images/html1.jpeg" alt="html" usemap="#map">
+
+    <map name="map">
+        <area shape="rect" coords="95,37,187,148" title="html" href="index.html">
+    </map><br>
+
+    <!--image map was added to click the selected area -->
+
+    <picture>
+        <source media="(min-width:700px)" srcset="HTML/images/computer.jpg" width="500px">
+        <source media="(min-width:400x)" srcset="HTML-basics/images/html2.jpeg">
+        <img src="HTML/images/html1.jpeg">
+    </picture>
+
+    <!--media change for different sizes using source media attributes-->
+
+    <table style="width: 90%;">
+        <caption>Table used by trainees</caption>
+
+        <!--caption add tables caption-->
+        <tr>
+            <th colspan="5">SPARKOUT TECH SOLUTIONS</th>
+
+            <!--colspan used to merge the columns-->
+        </tr>
+        <tr>
+            <th>S.No</th>
+            <th>Date</th>
+            <td rowspan="5">FrontEnd</td>
+
+             <!--rowspan used to merge the rows-->
+
+            <th>Project Name</th>
+            <th>Status</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>01/04/2024</td>
+            <td>HTML</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>02/04/2024</td>
+            <td>CSS</td>
+            <td>Completed</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>03/04/2024</td>
+            <td>Bootstrap</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>04/04/2024</td>
+            <td>Tail Wind</td>
+            <td>Completed</td>
+        </tr>
+    </table>
+
+    <!--table is created using table rows and columns// border attribute used for the table line-->
+
+
+</body>
+</html>
