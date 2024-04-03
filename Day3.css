@@ -1,0 +1,13 @@
+.classname{
+    padding: 20px;
+}
+
+/*class used to specify a class for an html element*/
+
+#idname{
+    color:powderblue;
+    background-color: purple;
+
+    /*id specifies an unique id for an html element used in only one element*/
+}
+
