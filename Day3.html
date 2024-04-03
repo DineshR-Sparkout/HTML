@@ -35,7 +35,7 @@
 
     <!--description list created and is used to describe the term-->
 
-    <div style="color:indigo;background-color: ivory; text-align: center;">
+    <div style="color:aliceblue;background-color: ivory; text-align: center;">
         <h2>Block and Inline</h2>
         <p><span style="color:olivedrab;background-color: orangered;padding: 5px;">block</span> takes the full width in the tag</p>
         <p>Inline takes only the space of tags</p>
@@ -43,7 +43,7 @@
 
     <!--div is used as a container to add style block of content// span is an inline container used to markup a part of text-->
 
-    <div style="display: flex; background-color: papayawhip;">
+    <div style="display: flex; background-color: saddlebrown;">
         <div>
             <h2>Block and Inline</h2>
             <p>block takes the full width in the tag</p>
@@ -97,9 +97,35 @@
         function myfunction(){
             document.getElementById("idname").style.backgroundColor="blue";
         }
+        function colorchange(){
+            document.getElementById("style").style.color="aqua";
+            document.getElementById("style").style.backgroundColor="salmon";
+            document.getElementById("style").style.border="2px solid yellow";
+
+        }
     </script>
 
+    <!--changes the color using javascript-->
+
+
     <!--script tag is used for javascript functions-->
+
+    <h2 id="dinesh">Hi I am Dinesh</h2>
+
+    <button onclick="document.getElementById('dinesh').innerHTML='I am an intern in sparkout tech'">click</button>
+
+    <!--change the text using javascript-->
+
+    <h2 id="style">I am a BCA graduate</h2>
+    <button onclick="colorchange()">click</button>
+
+    <!--changes the style using javascript-->
+
+
+
+
+
+
 
 
 
