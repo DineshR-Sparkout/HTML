@@ -12,11 +12,11 @@ a{
 /* text decoration:none changes the underlined link into normal */
 
 th, td{
+    color:white;
+    background-color: teal;
     border: 5px thistle dashed;
     border-collapse: collapse;
     padding: 20px;
-    background-color: teal;
-    color:white;
     border-radius: 50px;
     text-align: center;
 
@@ -37,3 +37,9 @@ table{
     /* border spacing puts the size between the table cells */
 
 }
+th:hover, td:hover{
+    background-color: thistle;
+    color:tomato;
+}
+
+/* hover uses for the css change when mouse hover*/
