@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <link rel="stylesheet" href="Day4.css">
+</head>
+<body>
+    <form action="Day2.html" method="get" autocomplete="on" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+    <!--form is a container for input elements// action attribute is used to action performed when form is submitted//
+    method=get is used for value is shown in the address bar after submitted// 
+    autocomplete is used for automatically complete values// oninput attribute is used to give input-->
+
+    <fieldset>
+
+        <!--fieldset is used to group the form-->
+
+        <legend>Form</legend>
+
+        <!--legend is used for the caption of fieldset-->
+
+        <label>Name:</label>
+
+        <!--it gives label for form elements-->
+
+        <input type="text" name="name" value="Dinesh" readonly><br>
+
+        <!--type text gives all texts in the field-->
+
+        <label>Password:</label>
+
+        <input type="password" placeholder="enter the password"  maxlength="10" required><br>
+
+        <!--placeholder used for the text inside the input field-->
+
+        <label>DOB:</label>
+
+        <input type="date" min="01-01-2024" max="01-01-2025"><br>
+
+        <label>Age:</label>
+
+        <input type="number"><br>
+
+        <label>Email:</label>
+
+        <input type="email"><br>
+
+        <label>Phone number:</label>
+
+        <input type="tel"><br>
+
+        <input type="url"><br>
+
+        <input type="time"><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+
+        <!--radio button used for select only one option-->
+
+        <select size="3" multiple>
+            <option>Frontend</option>
+            <option>React</option>
+            <option>PHP</option>
+            <option>Python</option>
+            <option>node js</option>
+            <option>Quality analyst</option>
+        </select>
+
+        <!--select used for dropdown list// options are used for dropdown list options// 
+            size specifies the number of values visible in single frame// multiple used for select multiple options-->
+
+        <br>
+        <label>Skills:</label>
+        <input type="checkbox" name="skills">HTML
+        <input type="checkbox" name="skills">CSS
+        <input type="checkbox" name="skills">Javascript
+        <input type="checkbox" name="skills">Python
+        <input type="checkbox" name="skills">PHP<br>
+
+        <!--in checkbox we can create multiple elements-->
+
+        <input list="frontend" name="frontend">
+        <datalist id="frontend">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="Bootstrap">
+            <option value="Tailwind">
+        </datalist><br>
+
+        <!--datalist is used for predefined options-->
+
+        <textarea rows="10" cols="50">Comment</textarea><br>
+
+        <!--textarea is used to create input field-->
+
+        <input type="number" id="a" name="a" value="">
+        +
+        <input type="number" id="b" name="b" value="">
+        =
+        <output name="x" for="a b"></output><br>
+
+        <!--output tag is used to display the output-->
+
+        <input type="search"><br>
+
+        <input type="color"><br>
+        
+        <!--color picker shows when using type color-->
+
+        <label>Upload Resume:</label>
+
+        <input type="file"><br>
+
+        <label>Marks</label>
+
+        <input type="range"><br>
+
+        <input type="submit">
+
+        <!--submit button is created for submit the form-->
+
+        <input type="button" value="click">
+
+        <!--type button is used for clickable buttons-->
+
+    </fieldset>
+
+    </form>
+
+    <video controls autoplay>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <!-- source adds video to the page-->
+
+    <audio controls>
+        <source src="horse.ogv" type="audio/mpeg">
+    </audio>
+
+    <!--audio is added using audio and source tags-->
+
+    <embed src="day3.html">
+
+    <object data="Day4.html"></object>
+</body>
+</html>
